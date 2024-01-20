@@ -1093,7 +1093,7 @@
       animation-duration: 30s;
       mask-size: 80px 80px;
       --right: #f8cde8;
-      --left: #b9ddff;
+      --left: #00a76f;
       position: absolute;
       width: 200vw;
       margin-left: -50%;
@@ -1120,7 +1120,7 @@
       background-position-y: 100%;
       -webkit-mask-position: 50% 0;
       mask-position: 50% 0;
-      animation: gradient 60s linear infinite;
+      animation: gradient 10s linear infinite;
 
       @keyframes gradient {
         0% {
