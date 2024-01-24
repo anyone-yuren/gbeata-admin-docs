@@ -30,7 +30,8 @@
             `,`
           );
 
-          box-shadow: inset 0 0 0 1px `,", ",`;
+          box-shadow: inset 0 0 0 1px `,`,
+            `,`;
 
           .`,` {
             height: `,`px;
@@ -43,16 +44,16 @@
           }
 
           .`,` {
-            position: absolute;
-            visibility: hidden;
-            opacity: 0;
+            // position: absolute;
+            // visibility: hidden;
+            // opacity: 0;
           }
 
           .`,` {
             font-size: `,`px;
           }
         }
-      `])),R,m.colorFillContent,m.colorFillQuaternary,(0,G.$n)(.5,m.colorFillContent),(0,G.$n)(.5,m.colorFillQuaternary),m.colorBorder,m.boxShadowSecondary,J,Q*$,B,q(100),X,V,F?14:20),title:L(V,R,h(dn||(dn=T()([`
+      `])),R,m.colorFillContent,m.colorFillQuaternary,(0,G.$n)(.5,m.colorFillContent),(0,G.$n)(.5,m.colorFillQuaternary),m.colorBorder,m.boxShadowSecondary,J,Q*$,B,q(100),X,V,F?14:18),title:L(V,R,h(dn||(dn=T()([`
           pointer-events: none;
           font-size: 20px;
           line-height: `,`;
@@ -88,7 +89,11 @@
           padding: 4px;
 
           &[image-style='primary'] {
-            background: linear-gradient(135deg, `,", ",`);
+            background: linear-gradient(
+              135deg,
+              `,`,
+              `,`
+            );
           }
 
           &[image-style='light'] {

@@ -38,7 +38,8 @@
             `,`
           );
 
-          box-shadow: inset 0 0 0 1px `,", ",`;
+          box-shadow: inset 0 0 0 1px `,`,
+            `,`;
 
           .`,` {
             height: `,`px;
@@ -51,16 +52,16 @@
           }
 
           .`,` {
-            position: absolute;
-            visibility: hidden;
-            opacity: 0;
+            // position: absolute;
+            // visibility: hidden;
+            // opacity: 0;
           }
 
           .`,` {
             font-size: `,`px;
           }
         }
-      `])),k,e.colorFillContent,e.colorFillQuaternary,(0,A.$n)(.5,e.colorFillContent),(0,A.$n)(.5,e.colorFillQuaternary),e.colorBorder,e.boxShadowSecondary,H,$*z,h,R(100),P,D,v?14:20),title:p(D,k,o(T||(T=s()([`
+      `])),k,e.colorFillContent,e.colorFillQuaternary,(0,A.$n)(.5,e.colorFillContent),(0,A.$n)(.5,e.colorFillQuaternary),e.colorBorder,e.boxShadowSecondary,H,$*z,h,R(100),P,D,v?14:18),title:p(D,k,o(T||(T=s()([`
           pointer-events: none;
           font-size: 20px;
           line-height: `,`;
@@ -96,7 +97,11 @@
           padding: 4px;
 
           &[image-style='primary'] {
-            background: linear-gradient(135deg, `,", ",`);
+            background: linear-gradient(
+              135deg,
+              `,`,
+              `,`
+            );
           }
 
           &[image-style='light'] {
