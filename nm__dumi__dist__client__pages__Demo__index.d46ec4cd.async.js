@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_gbeata_admin_docs=self.webpackChunk_gbeata_admin_docs||[]).push([[9],{61955:function(i,a,e){e.r(a),e.d(a,{default:function(){return m}});var n=e(6736),d=e(52983),o=function(){var r=(0,n.UO)(),s=r.id,u=(0,n.WF)(),c=u.demos,f=c[s]||{},t=f.component;return t&&(0,d.createElement)(t)},m=o}}]);
